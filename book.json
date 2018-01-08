@@ -9,7 +9,7 @@
 	"structure.glossary": "GLOSSARY.markdown", 
 
 	"plugins": [
-		"mathjax"
+		"mathjax-new-cdn"
 	], 
 
 	"pluginsConfig": {
