@@ -3,14 +3,14 @@
 ### 第 3.4 定理<br>Law of Total Probability
 
 ### 第 3.15 例題<br>Suppose that 80% of the seniors（大四）, 70%（大三） of the juniors, 50% of the sophomores（大二）, and 30% of the freshmen（大一） of a college use the library of their campus frequently.  If 30% of all students are freshmen, 25% are sophomores, 25% are juniors, and 20% are seniors, what percent of all students use the library frequently?
-* 令大一為 $$F$$大二為$$S$$大三為$$J$$大四為$$E$$圖書館為$$U$$
-* $$\begin{align*}
+* 令大一為 $$ F $$ 大二為 $$ S $$ 大三為 $$ J $$ 大四為$$ E $$ 圖書館為$$U$$
+* $$ \begin{align*}
 P(U)&=P(U|F)\cdot P(F)+P(U|S) \cdot P(S) + P(U|J)\cdot P(J) + P(U|E) \cdot P(E)\\
 &=0.3\cdot 0.3 + 0.5 \cdot 0.25 + 0.7 \cdot 0.25 + 0.80 \cdot 0.20
-\end{align*}$$
+\end{align*} $$
 
 ### 第 3.17 例題<br>An urn contains 10 white and 12 red chips.  Two chips are drawn at random and, without looking at their colors, are discarded.  What is the probability that a third chip drawn is red.
-* 令 $$W$$為白色$$R$$為紅色
+* 令 $$ W $$ 為白色 $$ R $$ 為紅色
 * 分為四種情形：
 	* R_1 R_2
 	* R_1 W_2
