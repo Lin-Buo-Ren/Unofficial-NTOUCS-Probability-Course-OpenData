@@ -29,7 +29,7 @@ e^{-1} = \sum^{\infit}{n = 0} \frac{(-1)^n}{n!} = 1-1+\frac{1}{2!} - \frac{1}{3!
 * 令紅球為 $$ R$$ 藍球為 $$B$$
 
 #### (a) What is the sample space?
-* 強調順序：$$ \{(R, R), (R, B), (B, R), (B, B)\} $$ 或不強調順序： $$ {RR, BR, RB} $$都可以
+* 強調順序：$$ {(R, R), (R, B), (B, R), (B, B)} $$ 或不強調順序： $$ {RR, BR, RB} $$都可以
 
 #### (b)
 $$ \frac{n}{2n} \cdot \frac{n}{2n-1} + \frac{n}{2n} \cdot \frac{n}{(2n-1)} = \frac{2n^2}{2n(2n-1)} = \frac{n}{2n-1} $$
