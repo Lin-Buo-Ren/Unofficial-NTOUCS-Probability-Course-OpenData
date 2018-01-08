@@ -1,0 +1,20 @@
+{
+	"_comment": "This is the configuration file of the GitBook toolchain, refer <https://toolchain.gitbook.com/config.html> for more information", 
+
+	"language": "chi", 
+	"gitbook": ">= 3.0.0", 
+
+	"structure.readme": "README.markdown", 
+	"structure.summary": "SUMMARY.markdown", 
+	"structure.glossary": "GLOSSARY.markdown", 
+
+	"plugins": [
+		"mathjax"
+	], 
+
+	"pluginsConfig": {
+
+	},
+
+	"pdf.fontFamily": "sans"
+}
