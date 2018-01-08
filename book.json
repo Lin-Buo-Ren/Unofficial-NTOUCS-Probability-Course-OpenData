@@ -9,11 +9,11 @@
 	"structure.glossary": "GLOSSARY.markdown", 
 
 	"plugins": [
-		"mathjax-updated-deps"
+		"mathjax-new-cdn"
 	], 
 
 	"pluginsConfig": {
-		"mathjax-updated-deps": {
+		"mathjax-new-cdn": {
 			"forceSVG": true
 		}
 	},
