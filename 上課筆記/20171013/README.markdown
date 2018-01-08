@@ -21,7 +21,7 @@ P(A_1 \cup A_2 \cup \cdots \cup A_n) &= \sum^n_{i=1} P(A_i) - \sum P(A_i A_j) + 
 &= 1 - \frac{1}{2} + \frac{1}{3!} - \frac{1}{4!} + \cdots
 \end{align*} $$
 	* $$ P(A_1) = \frac{(n-1)!}{n!} = \frac{1}{n} $$
-	* $$ P(A_1 A_2) = \frac{(n-2)!}{n!} = \frac{1}{n(n-1)}
+	* $$ P(A_1 A_2) = \frac{(n-2)!}{n!} = \frac{1}{n(n-1)} $$
 	* $$ e^x = \sum^{\infit}{n=0} \frac{x^n}{n!}\\
 e^{-1} = \sum^{\infit}{n = 0} \frac{(-1)^n}{n!} = 1-1+\frac{1}{2!} - \frac{1}{3!}+ \frac{1}{4!} + \cdots $$
 
