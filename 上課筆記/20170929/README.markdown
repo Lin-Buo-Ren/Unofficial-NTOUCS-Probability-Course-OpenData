@@ -45,7 +45,7 @@ P(E_1 OR E_2 OR \cdots OR E_n) \\
 ### 第 2.7 定理 - Stirling's Formula - $$ n! ~ \sqrt{2\pi n} n^n e^{-n} $$
 #### 第 2.31 例題 - Approximate the value of $$ 2^n (n!)^2 \ / (2n)! $$ for large $$ n $$
 $$ \begin{align*}
-原式 &= \frac{2^n \cdot 2\pi n \cdot n^{2n} \cdot e^{-2n}}{\sqrt{2\pi2n} \cdot(2n)^{2n} (missed 1100)
+原式 &= \frac{2^n \cdot 2\pi n \cdot n^{2n} \cdot e^{-2n}}{\sqrt{2\pi2n} \cdot(2n)^{2n}} (missed 1100)
 \end{align*} $$
 
 ## 第 3 章 - 條件機率<br>Conditional Probability
