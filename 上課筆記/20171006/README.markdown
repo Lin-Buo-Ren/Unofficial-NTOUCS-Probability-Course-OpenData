@@ -12,10 +12,10 @@ P(U)&=P(U|F)\cdot P(F)+P(U|S) \cdot P(S) + P(U|J)\cdot P(J) + P(U|E) \cdot P(E)\
 ### 第 3.17 例題<br>An urn contains 10 white and 12 red chips.  Two chips are drawn at random and, without looking at their colors, are discarded.  What is the probability that a third chip drawn is red.
 * 令 $$ W $$ 為白色 $$ R $$ 為紅色
 * 分為四種情形：
-	* R_1 R_2
-	* R_1 W_2
-	* W_1 R_2
-	* W_1 W_2
+	* $$ R_1 R_2 $$
+	* $$ R_1 W_2 $$
+	* $$ W_1 R_2 $$
+	* $$ W_1 W_2 $$
 * $$\begin{align*}
 P(R_3) &= P(R_3|R_1R_2)P(R_1R_2)+P(R_3|R_1W_2)+P(R_3|W_1R_2)P(W_1R_2)+P(R_3|W_1W_2)P(W_1W_2)\\
 &= \frac{10}{20}\frac{12}{22}\cdot\frac{11}{21}+\frac{11}{20}(\frac{12}{22}\cdot\frac{10}{21}) + \frac{11}{20}(\frac{10}{22}\frac{12}{21})+ (left)\\
@@ -29,7 +29,7 @@ P(R_3) &= P(R_3|R_1R_2)P(R_1R_2)+P(R_3|R_1W_2)+P(R_3|W_1R_2)P(W_1R_2)+P(R_3|W_1W
 ### 第 3.4 章<br>Baye's Formula
 To introduce Bayes' formula, let us first examine the following problem.  
 
-#### In a bolt factory, 30, 50, and 20% of production is manufactured by machines I, II, and III, respectively.  If 4, 5, and 3% of the output of these respective machines is defective, what is the probability that a randomly selected bolt that is found to be defective is manufactured by machine III?  To solve this problem, let $$A$$ be the event that a random bolt is defective and B_3 be the event that it is manufactured by machine III.\
+#### In a bolt factory, 30, 50, and 20% of production is manufactured by machines I, II, and III, respectively.  If 4, 5, and 3% of the output of these respective machines is defective, what is the probability that a randomly selected bolt that is found to be defective is manufactured by machine III?  To solve this problem, let $$ A $$ be the event that a random bolt is defective and B_3 be the event that it is manufactured by machine III.\
 
 ##### Solution<br>樹狀圖求解
 ![pic1103]()
@@ -41,11 +41,11 @@ P(III | D) &= \frac{P(III\cdot D)}{P(D)}\\
 &= \frac{0.03 \cdot 0.2}{(0.04) \cdot (0.3) + (0.05) \cdot (0.5) + 0.03 \cdot 0.2}
 \end{align*} $$
 
-* $$P(I)$$、$$P(II)$$、$$P(III)$$為事前機率(prior)
-* $$P(III|D)$$為事後機率(posterior)
+* $$ P(I) $$、$$ P(II) $$、$$ P(III) $$為事前機率(prior)
+* $$ P(III|D) $$為事後機率(posterior)
 
 #### 第 3.5 定理<br>Bayes' Theorem
-* Let $${B_1, B_2, \cdots , B_n}$$ be a partition of the sample space $$ S $$ of an experiment.  If for $$ i = 1, 2, \cdots, n$$ , $$ P(B_i) > 0 $$, then for any event $$ A $$ of $$S $$ with $$ P(A) > 0 $$  
+* Let $$ {B_1, B_2, \cdots , B_n} $$ be a partition of the sample space $$ S $$ of an experiment.  If for $$ i = 1, 2, \cdots, n$$ , $$ P(B_i) > 0 $$, then for any event $$ A $$ of $$S $$ with $$ P(A) > 0 $$  
 $$ \begin{align*}
 P(B|A) = \frac{P(A|B)P(B)}{P(A|B)P(B)+P(A|B^c)P(B^c)}
 \end{align*}$$
