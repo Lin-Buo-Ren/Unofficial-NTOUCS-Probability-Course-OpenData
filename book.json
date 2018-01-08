@@ -13,9 +13,6 @@
 	], 
 
 	"pluginsConfig": {
-		"mathjax-new-cdn": {
-			"forceSVG": true
-		}
 	},
 
 	"pdf.fontFamily": "sans"
