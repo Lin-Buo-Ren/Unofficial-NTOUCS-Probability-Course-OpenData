@@ -13,7 +13,16 @@
 	], 
 
 	"pluginsConfig": {
-
+		"mathjax": {
+			"extensions": ["tex2jax.js"], 
+			"tex2jax": { 
+				"inlineMath": [
+					["$", "$"],
+					["\\(", "\\)"]
+				], 
+				"processEscapes": true
+			} 
+		}
 	},
 
 	"pdf.fontFamily": "sans"
