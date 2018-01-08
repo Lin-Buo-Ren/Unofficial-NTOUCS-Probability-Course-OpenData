@@ -29,10 +29,10 @@ $$ P( X < 15,000) = 1 - P( X \ge 15,000) \ge \frac{1}{3} $$
 
 * $$ P(X \ge t) \le \frac{E(X)}{t} $$
 
-#### Thus, for example, $$ P( \mid X - \mu \mid\ge 2 \sigma ) \le 1/4\\  P( \mid X - \mu \mid ...)\\  P(...)$$
+#### Thus, for example, $$ P( \mid X - \mu \mid\ge 2 \sigma ) \le 1/4\\  P( \mid X - \mu \mid ...)\\  P(...) $$
 
 ### 第 11.13 例題 - Suppose that, on average, a post office handles 10,000 letters a day with a variance of 2,000.  ...the probability that this post office will handle between 8,000 and 12,000 letters tomorrow?
-* $$ r.v. x$$：一天能處理的信件數 $$
+* $$ r.v. x$$：一天能處理的信件數
 
 ![](graph1048.png)
 
@@ -88,7 +88,7 @@ P( \mid \bar{X} - l \mid \le 0.2) &\ge 0.98\\
 
 ### 大數法則
 
-### 第 11.4 例題 - Let $$ {X_1, X_2, \cdots $$ be a sequence of nonnegative independent random variables and, for all $$ i $$, suppose that the probability density function of $$ X_i $$ is $$f(x) =  \begin{cases} 4x(1-x)	if 0 \le x \le 1\\ 0	otherwise \end{cases}$$.  Find $$ lim_{n \to \infnty} \frac{X_1 + X_2 + \cdots ...}{}...$$
+### 第 11.4 例題 - Let $$ \{X_1, X_2, \cdots\} $$ be a sequence of nonnegative independent random variables and, for all $$ i $$, suppose that the probability density function of $$ X_i $$ is $$f(x) =  \begin{cases} 4x(1-x)	if 0 \le x \le 1\\ 0	otherwise \end{cases}$$.  Find $$ lim_{n \to \infnty} \frac{X_1 + X_2 + \cdots ...}{}...$$
 
 ### 大數法則的應用
 
